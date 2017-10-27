@@ -44,6 +44,10 @@ make clean - Clean up all intermediate build products (object and module files)
 make distclean - Clean up all build products
 make - Build executable
 
+Known Problems:
+If make does not succeed, try to build using make -k to ignore errors.
+Repeat that until all files are compiled.
+
 ======
 Usage
 ======

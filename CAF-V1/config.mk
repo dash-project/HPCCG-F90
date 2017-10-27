@@ -11,7 +11,8 @@
 #
 # =======================================================================================
 
-# Toolchain configuration to use. Currently supported: IFORT, CRAY
+# Toolchain configuration to use. Currently supported:
+# IFORT, IFORT_Supermuc, CRAY
 TOOLCHAIN = IFORT
 
 # Configuration option to control MPI distributed memory parallelism
